@@ -1,6 +1,6 @@
-# Project Title
+# Challenge 2 - User Saves Qualified Loans
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+This program is designed to assist users in obtaining and saving a list of qualified loans based on certain entered criteria. 
 
 ---
 
