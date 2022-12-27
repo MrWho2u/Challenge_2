@@ -1,46 +1,3 @@
-  116  touch change_log.txt
-  117  git add change_log.txt
-  118  git commit -m "adding a changes log"
-  119  git push
-  120  python app.py
-  121  python app.py
-  122  python app.py
-  123  python app.py
-  124  python app.py
-  125  python app.py
-  126  python app.py
-  127  python app.py
-  128  python app.py
-  129  python app.py
-  130  python app.py
-  131  cd utils
-  132  cd qualifier
-  133  cd utils
-  134  git status
-  135  git add filedl.ppy
-  136  git add filedl.py
-  137  git commit -m "adding this module which will download the csv file to the users desired folder"
-  138  git push
-  139  cd ..
-  140  cd ..
-  141  git add app.py
-  142  git commit -m "made updates to app, so that it will ask the user if they would like to download their results. This was the primary ask."
-  143  git push
-  144  git push change_log.txt
-  145  git add change_log.txt
-  146  git commit -m "updating change log"
-  147  git push
-  148  python app.py
-  149  python app.py
-  150  git add app.py
-  151  git commit -m "added funtion where if the user does not qualify they recieve an error when trying to save"
-  152  git push
-  153  git add app.py
-  154  git commit -m "updated app so that it returns error if user tries to save with no qualified loans
-"
-  155  git push
-  156  cd qualifier
-  157  cd utils
   158  git add filedl.py
   159  git commit -m "bug in the code, updated so that it was adding lists"
   160  git push
@@ -49,3 +6,45 @@
   163  python app.py
   164  python app.py
   165  history 50 > terminal_history.txt
+  166  git add change_log.txt
+  167  git add app.py.txt
+  168  git add app.py
+  169  git commit -m "notices I was supposed to use the 'confirm' function and I had used the 'select' function"
+  170  git push
+  171  git status
+  172  git add README.md
+  173  git add terminal_history.txt
+  174  git commit -m "adding terminal history"
+  175  git push
+  176  git fetch
+  177  git status
+  178  git status
+  179  git add README.md
+  180  git add app.py
+  181  git add change_log.txt
+  182  git add terminal_history.txt
+  183  git commit -m "adding terminal history and updating app. notice I was supposed to use 'confirm' in ask logic vs 'select'"
+  184  git push
+  185  git pull
+  186  git add app.py
+  187  git add README.md
+  188  git add change_log.txt
+  189  git add terminal_history.txt
+  190  git commit -m "adding terminal history and updating app. notice I was supposed to use 'confirm' in ask logic vs 'select'"
+  191  git push
+  192  git add README.md
+  193  git commit -m "update read me file"
+  194  git push
+  195  git push README.md
+  196  git add README.md
+  197  git commit -m "updating read me"
+  198  git push
+  199   git add README.md
+  200  git commit -m "updating read me formatting"
+  201  git push
+  202  git add change_log.txt
+  203  git commit -m "updating change log for records"
+  204  git add change_log.txt
+  205  git commit -m "updating change log for records"
+  206  git push
+  207  history 50 > terminal_history.txt
