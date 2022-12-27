@@ -11,4 +11,6 @@ def download_csv(save_path, qualifying_loans):
         csvwriter.writerow(header)
 
         for row in qualifying_loans:
-            csvwriter.writerow(row.values())
+            csvwriter.writerow(row)
+    
+    print("Thanks, your file has been saved")
