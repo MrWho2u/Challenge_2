@@ -120,14 +120,21 @@ def save_qualifying_loans(qualifying_loans):
             "No"
         ]).ask()
     
-    #if statement to prompt the use if for a path if they said yes, or thank them and exit if they said no
-    if save_resluts == "Yes":
+    #if statement to prompt the use if for a path if they said yes, or thank them and exit if they said no, or there are no qualified loans
+    # if statement if they are qualfied and said yess
+    if save_resluts == "Yes" and len(qualifying_loans) > 0:
         save_path = questionary.text("Where would you like to save the file?").ask()
         save_path = save_path + "/qualified_loans.csv"
         save_path = Path(save_path)
 
+    # rund the download csv module
         download_csv(save_path,qualifying_loans)
 
+    # if they said yes but did not qualify then give them an error message
+    elif save_resluts == "Yes" and len(qualifying_loans) == 0:
+        print("Sorry, but you did not qualify for any loans. Try to downloand again when you have qualified.")
+    
+    # if they said no, then thank them for their time
     elif save_resluts == "No":
         print("Thanks for using this app. Please come again.")
 
