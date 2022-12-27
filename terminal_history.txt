@@ -1,0 +1,51 @@
+  116  touch change_log.txt
+  117  git add change_log.txt
+  118  git commit -m "adding a changes log"
+  119  git push
+  120  python app.py
+  121  python app.py
+  122  python app.py
+  123  python app.py
+  124  python app.py
+  125  python app.py
+  126  python app.py
+  127  python app.py
+  128  python app.py
+  129  python app.py
+  130  python app.py
+  131  cd utils
+  132  cd qualifier
+  133  cd utils
+  134  git status
+  135  git add filedl.ppy
+  136  git add filedl.py
+  137  git commit -m "adding this module which will download the csv file to the users desired folder"
+  138  git push
+  139  cd ..
+  140  cd ..
+  141  git add app.py
+  142  git commit -m "made updates to app, so that it will ask the user if they would like to download their results. This was the primary ask."
+  143  git push
+  144  git push change_log.txt
+  145  git add change_log.txt
+  146  git commit -m "updating change log"
+  147  git push
+  148  python app.py
+  149  python app.py
+  150  git add app.py
+  151  git commit -m "added funtion where if the user does not qualify they recieve an error when trying to save"
+  152  git push
+  153  git add app.py
+  154  git commit -m "updated app so that it returns error if user tries to save with no qualified loans
+"
+  155  git push
+  156  cd qualifier
+  157  cd utils
+  158  git add filedl.py
+  159  git commit -m "bug in the code, updated so that it was adding lists"
+  160  git push
+  161  cd ..
+  162  cd ..
+  163  python app.py
+  164  python app.py
+  165  history 50 > terminal_history.txt
