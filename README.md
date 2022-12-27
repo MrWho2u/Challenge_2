@@ -30,12 +30,13 @@ Before running the application first install the following dependencies.
 To look up and save qualifying loans simply clone the repository and run the **app.py**. You'll need to pull the data from the following location: *./data/daily_rate_sheet.csv* 
 
 Upon launching you will be prompted for the data source location: *./data/daily_rate_sheet.csv* 
+
 It will then ask you for your:
-Credit Score
-Monthly Debt
-Monthly Income
-Desired Loan Amount
-Home Value
+>Credit Score
+>Monthly Debt
+>Monthly Income
+>Desired Loan Amount
+>Home Value
 
 The app will then provide you with your debt to income ratio, loan to value ratio, and the number of qualified loans it found. You will then be asked if you would like to save your results.
 
