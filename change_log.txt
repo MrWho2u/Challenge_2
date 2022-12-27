@@ -1,2 +1,5 @@
 1) added a module the utils folder for the file download. I assumed that since there was a file upload module, there should also be a download module. 
 2) updated the app.py file so that it will now ask if the user want to save their results. it will then pull the save results module and ask where files should be save. 
+3) updated the app.py so that an error occurs if the user did not qualify for a loan but wants to save
+4) updated the download module, it was originall set up a dictionary not a list. made adjustments
+5) didn't realize that the instruction said that the question needed to use "confirm.ask" so adjusted code to use this instead of "select"
