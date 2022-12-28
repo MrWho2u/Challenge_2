@@ -49,7 +49,7 @@ If you confirm Yes, the app will ask you where you wish to download your results
 
 ### Example ###
 
-![Vidoe that shows an example]("https://giphy.com/embed/PTVoBU04kTo55PFcXy")
+![Vidoe that shows an example](giphy.gif)
 ---
 
 ## Contributors
