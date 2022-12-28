@@ -47,6 +47,9 @@ The app will then provide you with your debt to income ratio, loan to value rati
 
 If you confirm Yes, the app will ask you where you wish to download your results. No need to add the csv name as this is already completed. Simply list the folder loaction. Sush as: *./data*
 
+### Example ###
+
+![Vidoe that shows an example]("https://giphy.com/embed/PTVoBU04kTo55PFcXy")
 ---
 
 ## Contributors
